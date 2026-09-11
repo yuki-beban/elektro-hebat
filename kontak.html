@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontak - Teknik Elektro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <h2>⚡ ElektroKu</h2>
+
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="tentang.html">Tentang</a>
+	<a href="funfact.html">Fun Fact</a>
+            <a href="kontak.html">Kontak</a>
+        </div>
+    </nav>
+
+    <!-- ISI -->
+    <section class="container">
+
+        <h1>Hubungi Saya 📩</h1>
+
+        <p>
+            Kalau ingin menghubungi saya,
+            silakan isi form di bawah.
+        </p>
+
+<form action="https://formspree.io/f/mrpgdrvg" method="POST">
+
+    <label>Nama</label>
+    <input
+        type="text"
+        name="nama"
+        placeholder="Masukkan nama"
+        required
+    >
+
+    <label>Email</label>
+    <input
+        type="email"
+        name="email"
+        placeholder="Masukkan email"
+        required
+    >
+
+    <label>Pesan</label>
+    <textarea
+        name="pesan"
+        placeholder="Tulis pesan kamu"
+        required
+    ></textarea>
+
+    <button type="submit">
+        Kirim Pesan
+    </button>
+
+</form>
+
+    </section>
+
+    <footer>
+        <p>© 2026 ElektroKu</p>
+    </footer>
+
+</body>
+</html>

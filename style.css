@@ -1,0 +1,261 @@
+/* =========================
+   SEMUA HALAMAN
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+nav {
+    background-color: #111827;
+    color: white;
+
+    padding: 20px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #38bdf8;
+}
+
+
+/* =========================
+   HOME
+========================= */
+
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.tombol {
+    background-color: #2563eb;
+    color: white;
+
+    padding: 12px 25px;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+}
+
+.tombol:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================
+   HALAMAN TENTANG & KONTAK
+========================= */
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+
+    margin: 60px auto;
+
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container > p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    width: 30%;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+form {
+    background-color: white;
+
+    max-width: 500px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    text-align: left;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form button {
+    margin-top: 20px;
+
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #111827;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 50px;
+}
+/* =========================
+   FUN FACT
+========================= */
+
+.funfact {
+    background-color: white;
+
+    padding: 25px;
+
+    margin: 20px auto;
+
+    max-width: 800px;
+
+    border-radius: 10px;
+
+    text-align: left;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.funfact h2 {
+    margin-bottom: 15px;
+
+    color: #2563eb;
+}
+
+.funfact p {
+    line-height: 1.6;
+}
